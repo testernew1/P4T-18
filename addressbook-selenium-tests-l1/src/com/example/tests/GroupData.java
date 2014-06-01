@@ -1,14 +1,14 @@
 package com.example.tests;
 
-public class Data4Group {
+public class GroupData {
 	public String name;
 	public String header;
 	public String footer;
 
-	public Data4Group() {
+	public GroupData() {
 	}
 	
-	public Data4Group(String groupname, String header, String footer) {
+	public GroupData(String groupname, String header, String footer) {
 		this.name = groupname;
 		this.header = header;
 		this.footer = footer;

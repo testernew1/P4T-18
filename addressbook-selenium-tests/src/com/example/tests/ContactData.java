@@ -1,6 +1,6 @@
 package com.example.tests;
 
-public class Data4Contact {
+public class ContactData {
 	public String firstname;
 	public String lastname;
 	public String address1;
@@ -16,10 +16,10 @@ public class Data4Contact {
 	public String address2;
 	public String phonehome2;
 
-	public Data4Contact() {
+	public ContactData() {
 	}
 	
-	public Data4Contact(String firstname, String lastname, String address1,
+	public ContactData(String firstname, String lastname, String address1,
 			String phonehome1, String phonemobile, String phonework,
 			String email1, String email2, String birthday, String birthmonth,
 			String birthyear, String groupofcontact, String address2,
