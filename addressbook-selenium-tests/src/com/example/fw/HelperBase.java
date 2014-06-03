@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public abstract class HelperBase {
-	
+
 	protected ApplicationManager manager;
 	protected WebDriver driver;
 	public boolean acceptNextAlert = true;
@@ -16,7 +16,7 @@ public abstract class HelperBase {
 		this.manager = manager;
 		this.driver = manager.driver;
 	}
-	
+
 	public boolean isElementPresent(By by) {
 	    try {
 	      driver.findElement(by);
@@ -50,7 +50,7 @@ public abstract class HelperBase {
 	protected void click(By locator) {
 		driver.findElement(locator).click();
 	}
-	
+
 	protected void selectByText(By locator, String text) {
 		if (text != null) {
 			new Select(driver.findElement(locator)).selectByVisibleText(text);

@@ -31,7 +31,7 @@ public class GroupHelper extends HelperBase {
 		selectGroupByIndex(index);
 		click(By.name("edit"));
 	}
-	
+
 	public void deleteGroup(int index) {
 		selectGroupByIndex(index);
 		click(By.name("delete"));

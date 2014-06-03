@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 //Additional, temporary class to verify how several classes can be run together
 public class GroupCreationTests extends TestBase {
-	
+
   @Test
   public void testNonEmptyGroupCreation() throws Exception {
 	app.getNavigationHelper().openMainPage();
@@ -18,7 +18,7 @@ public class GroupCreationTests extends TestBase {
     app.getGroupHelper().submitGroupCreation();
     app.getGroupHelper().return2GroupsPage();
   }
-
+ 
   /*@Test
   public void testEmptyGroupCreation() throws Exception {
 	app.getNavigationHelper().openMainPage();

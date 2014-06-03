@@ -18,7 +18,7 @@ public class ContactData {
 
 	public ContactData() {
 	}
-	
+
 	public ContactData(String firstname, String lastname, String address1,
 			String phonehome1, String phonemobile, String phonework,
 			String email1, String email2, String birthday, String birthmonth,

@@ -11,7 +11,7 @@ public class ContactCreationTests extends TestBase {
 	app.getContactHelper().submitContactCreation();
     app.getContactHelper().return2HomePage();
   }*/
-	
+
   @Test
   public void testNonEmptyAddressCreation() throws Exception {
     ContactData contact = new ContactData();
