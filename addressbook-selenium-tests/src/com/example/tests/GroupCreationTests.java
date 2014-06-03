@@ -2,7 +2,7 @@ package com.example.tests;
 
 import org.testng.annotations.Test;
 
-//Additional, temporary class to verify how several classes can be run together
+// Additional, temporary class to verify how several classes can be run together
 public class GroupCreationTests extends TestBase {
 
   @Test

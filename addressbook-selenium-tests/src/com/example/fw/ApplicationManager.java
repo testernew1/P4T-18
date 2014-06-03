@@ -36,7 +36,7 @@ public class ApplicationManager {
 		}
 		return groupHelper;
 	}
-	
+
 	public ContactHelper getContactHelper() {
 		if (contactHelper == null) {
 			contactHelper = new ContactHelper(this);

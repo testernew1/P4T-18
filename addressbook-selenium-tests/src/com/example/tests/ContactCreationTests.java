@@ -28,7 +28,7 @@ public class ContactCreationTests extends TestBase {
     contact.birthyear = "1985";
     contact.groupofcontact = "Group 1";
     contact.address2 = "Universe";
-    contact.phonehome2 = "7777777777";
+    contact.phonehome2 = "111111111";
     app.getNavigationHelper().openMainPage();
     app.getContactHelper().initContactCreation();
     app.getContactHelper().fillContactForm(contact);
