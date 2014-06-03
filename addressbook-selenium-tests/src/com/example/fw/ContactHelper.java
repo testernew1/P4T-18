@@ -38,4 +38,17 @@ public class ContactHelper extends HelperBase {
 	public void return2HomePage() {
 		click(By.linkText("home"));
 	}
+
+	public void initContactModification(int index) {
+		selectContactByIndex(index);
+	}
+	
+	public void submitContactModification(String xbutton) {
+		click(By.xpath("//input[@value='"+xbutton+"']"));
+	}
+	
+	private void selectContactByIndex(int index) {
+		int real_i = index + 1;
+	    click(By.xpath("//html/body/div/div[4]/form[2]/table/tbody/tr["+real_i+"]/td[7]/a/img")); 
+	}
 }

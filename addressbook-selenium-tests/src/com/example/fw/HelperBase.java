@@ -15,7 +15,6 @@ public abstract class HelperBase {
 	public HelperBase(ApplicationManager manager) {
 		this.manager = manager;
 		this.driver = manager.driver;
-
 	}
 	
 	public boolean isElementPresent(By by) {
@@ -53,9 +52,8 @@ public abstract class HelperBase {
 	}
 	
 	protected void selectByText(By locator, String text) {
-//		if (text != null) {
+		if (text != null) {
 			new Select(driver.findElement(locator)).selectByVisibleText(text);
-//		}
+		}
 	}
-
 }

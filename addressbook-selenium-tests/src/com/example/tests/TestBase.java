@@ -10,7 +10,6 @@ public class TestBase {
 
 	protected ApplicationManager app;
 	
-	// Pre and post initialization classes
 	@BeforeTest
 	public void setUp() throws Exception {
 		app = new ApplicationManager();
