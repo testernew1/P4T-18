@@ -1,5 +1,8 @@
 package com.example.fw;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import com.example.tests.GroupData;
 
@@ -42,6 +45,12 @@ public class GroupHelper extends HelperBase {
 	}
 
 	private void selectGroupByIndex(int index) {
-		click(By.xpath("//input[@name='selected[]']["+index+"]"));
+		click(By.xpath("//input[@name='selected[]'][" + index + "]"));
+	}
+
+	public List<GroupData> getGroups() {
+		List<GroupData> groups = new ArrayList<GroupData>();
+		driver.findElements(By.name("selected[]"));
+		return groups;
 	}
 }
