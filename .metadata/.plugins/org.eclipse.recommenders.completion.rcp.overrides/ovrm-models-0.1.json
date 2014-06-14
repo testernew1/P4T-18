@@ -1,0 +1,17 @@
+{
+  "C:\\GitHub\\P4T-18\\addressbook-selenium-tests-l1\\src": {
+    "location": "C:\\GitHub\\P4T-18\\addressbook-selenium-tests-l1\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\GitHub\\P4T-18\\addressbook-selenium-tests-l1\\src\u0027. Skipped."
+  },
+  "C:\\GitHub\\P4T-18\\addressbook-selenium-tests\\src": {
+    "location": "C:\\GitHub\\P4T-18\\addressbook-selenium-tests\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\GitHub\\P4T-18\\addressbook-selenium-tests\\src\u0027. Skipped."
+  },
+  "C:\\Users\\Alex\\workspace\\addressbook-selenium-tests\\src": {
+    "location": "C:\\Users\\Alex\\workspace\\addressbook-selenium-tests\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Alex\\workspace\\addressbook-selenium-tests\\src\u0027. Skipped."
+  }
+}

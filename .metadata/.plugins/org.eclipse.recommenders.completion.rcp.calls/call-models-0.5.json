@@ -1,0 +1,32 @@
+{
+  "C:\\GitHub\\P4T-18\\addressbook-selenium-tests\\src": {
+    "location": "C:\\GitHub\\P4T-18\\addressbook-selenium-tests\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\GitHub\\P4T-18\\addressbook-selenium-tests\\src\u0027. Skipped."
+  },
+  "C:\\Program Files\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\GitHub\\P4T-18\\addressbook-selenium-tests-l1\\src": {
+    "location": "C:\\GitHub\\P4T-18\\addressbook-selenium-tests-l1\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\GitHub\\P4T-18\\addressbook-selenium-tests-l1\\src\u0027. Skipped."
+  },
+  "C:\\1\\SWT-i\\4_Selenium Server Standalone Framework\\selenium-server-standalone-2.41.0.jar": {
+    "location": "C:\\1\\SWT-i\\4_Selenium Server Standalone Framework\\selenium-server-standalone-2.41.0.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\1\\SWT-i\\4_Selenium Server Standalone Framework\\selenium-server-standalone-2.41.0.jar\u0027. Neither fingerprint \u002736ff5dbb6f9592d511935f65ff262f5c1a53fef8\u0027 nor symbolic name \u0027org.yaml.snakeyaml\u0027 are known."
+  },
+  "C:\\Users\\Alex\\workspace\\addressbook-selenium-tests\\src": {
+    "location": "C:\\Users\\Alex\\workspace\\addressbook-selenium-tests\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Alex\\workspace\\addressbook-selenium-tests\\src\u0027. Skipped."
+  },
+  "C:\\1\\SWT-PDT18\\SWT-i\\4_Selenium Server Standalone Framework\\selenium-server-standalone-2.41.0.jar": {
+    "location": "C:\\1\\SWT-PDT18\\SWT-i\\4_Selenium Server Standalone Framework\\selenium-server-standalone-2.41.0.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\1\\SWT-PDT18\\SWT-i\\4_Selenium Server Standalone Framework\\selenium-server-standalone-2.41.0.jar\u0027. Neither fingerprint \u002736ff5dbb6f9592d511935f65ff262f5c1a53fef8\u0027 nor symbolic name \u0027org.yaml.snakeyaml\u0027 are known."
+  }
+}

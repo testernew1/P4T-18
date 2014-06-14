@@ -1,0 +1,38 @@
+package com.example.tests;
+
+import org.testng.annotations.Test;
+
+public class ContactCreationTests extends TestBase {
+/*@Test
+  public void testEmptyAddressCreation() throws Exception {
+    app.getNavigationHelper().openMainPage();
+    app.getContactHelper().initContactCreation();
+    app.getContactHelper().fillContactForm(new ContactData("", "", "", "", "", "", "", "", "-", "-", "", "", "", ""));
+	app.getContactHelper().submitContactCreation();
+    app.getContactHelper().return2HomePage();
+  }*/
+	
+  @Test
+  public void testNonEmptyAddressCreation() throws Exception {
+    ContactData contact = new ContactData();
+    contact.firstname = "Anton";
+    contact.lastname = "Belyaev";
+    contact.address1 = "Smolensk";
+    contact.phonehome1 = "1234567890";
+    contact.phonemobile = "0123456789";
+    contact.phonework = "9012345678";
+    contact.email1 = "a.belyaev@somewhere.org";
+    contact.email2 = "a.belyaev@nowhere.org";
+    contact.birthday = "11";
+    contact.birthmonth = "January";
+    contact.birthyear = "1985";
+    contact.groupofcontact = "Group 1";
+    contact.address2 = "Universe";
+    contact.phonehome2 = "7777777777";
+    app.getNavigationHelper().openMainPage();
+    app.getContactHelper().initContactCreation();
+    app.getContactHelper().fillContactForm(contact);
+	app.getContactHelper().submitContactCreation();
+    app.getContactHelper().return2HomePage();
+  }
+}

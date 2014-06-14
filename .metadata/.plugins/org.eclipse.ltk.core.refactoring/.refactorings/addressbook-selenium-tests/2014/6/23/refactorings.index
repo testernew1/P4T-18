@@ -1,0 +1,5 @@
+1401665951263	Extract local variable 'editBtnFor1stContact'
+1401666075617	Rename method 'selectContactByIndex'
+1401666135586	Rename local variable 'editBtnFor1stContact'
+1401667332668	Rename method 'returnToGroupsPage'
+1401678612260	Rename method 'selectEditBtnByContactIndex'
