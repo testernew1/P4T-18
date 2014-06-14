@@ -7,7 +7,7 @@ import java.util.Random;
 import static org.testng.Assert.assertEquals;
 
 public class GroupModificationTests extends TestBase {
-
+	
 	@Test(dataProvider = "randomValidGroupGenerator")
 	public void modifySomeGroup(GroupData group) {
 		app.getNavigationHelper().openMainPage();
