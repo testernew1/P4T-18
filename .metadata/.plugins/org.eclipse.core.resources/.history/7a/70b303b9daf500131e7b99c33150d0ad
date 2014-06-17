@@ -62,11 +62,11 @@ public class ContactHelper extends HelperBase {
 		List<ContactData> contacts = new ArrayList<ContactData>();
 		List<WebElement> checkboxes = driver.findElements(By.name("selected[]"));
 		for (WebElement checkbox : checkboxes) {
-			ContactData contact = new ContactData();
+			ContactData contact = new ContactData();	// create new element ContactData()
 			String title = checkbox.getAttribute("title");
 			title = title.substring("Select (".length(), title.length() - ")".length());
 			contact.firstname = title.substring(0, title.indexOf(" ")); // Space between fname and lname in the title				
-			contacts.add(contact);
+			contacts.add(contact);						// Add created object to the List
 		}
 		return contacts;
 	}
