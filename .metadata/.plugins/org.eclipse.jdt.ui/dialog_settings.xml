@@ -14,9 +14,9 @@
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
 		<item value="516" key="DIALOG_WIDTH"/>
-		<item value="54" key="DIALOG_Y_ORIGIN"/>
-		<item value="690" key="DIALOG_HEIGHT"/>
-		<item value="712" key="DIALOG_X_ORIGIN"/>
+		<item value="-13" key="DIALOG_Y_ORIGIN"/>
+		<item value="770" key="DIALOG_HEIGHT"/>
+		<item value="103" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
@@ -33,7 +33,7 @@
 	</section>
 	<section name="quick_assist_proposal_size">
 		<item value="406" key="size.x"/>
-		<item value="252" key="size.y"/>
+		<item value="84" key="size.y"/>
 	</section>
 	<section name="SourceActionDialog.methods">
 		<item value="false" key="SkipNull"/>
@@ -100,8 +100,8 @@
 		<item value="2" key="AccessModifier"/>
 	</section>
 	<section name="completion_proposal_size">
-		<item value="283" key="size.x"/>
-		<item value="210" key="size.y"/>
+		<item value="392" key="size.x"/>
+		<item value="689" key="size.y"/>
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>

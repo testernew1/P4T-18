@@ -1,6 +1,10 @@
 package com.example.fw;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import com.example.tests.ContactData;
 
@@ -43,12 +47,37 @@ public class ContactHelper extends HelperBase {
 		selectContactByIndex(index);
 	}
 
-	public void submitContactModification(String xbutton) {
-		click(By.xpath("//input[@value='"+xbutton+"']"));
+	public void deleteContact() {
+		click(By.xpath("//input[@value='Delete']"));		
+	}
+	
+	public void submitContactModification() {
+		click(By.xpath("//input[@value='Update']"));
 	}
 
 	private void selectContactByIndex(int index) {
-		int real_i = index + 1;
-	    click(By.xpath("//html/body/div/div[4]/form[2]/table/tbody/tr["+real_i+"]/td[7]/a/img")); 
+		int real_i = index + 2;  // +1 because contact form indexing starts from 2 !!!
+	    click(By.xpath("//html/body/div/div[4]/form[2]/table/tbody/tr[" + real_i + "]/td[7]/a/img"));
+	}
+
+	public List<ContactData> getContacts() {
+		List<ContactData> contacts = new ArrayList<ContactData>();
+		List<WebElement> checkboxes = driver.findElements(By.name("selected[]"));
+		
+		for (WebElement checkbox : checkboxes) {
+			ContactData contact = new ContactData();	// create new element ContactData()
+			String title = checkbox.getAttribute("title");
+			title = title.substring("Select (".length(), title.length() - ")".length());
+			contact.firstname = title.substring(0, title.indexOf(" ")); // Space between fname and lname in the title				
+			contacts.add(contact);						// Add created object to the List
+		}
+		return contacts;
 	}
 }
+
+
+
+
+
+
+

@@ -4606,3 +4606,737 @@ java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/l
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 52041 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-752703367\testng-customsuite.xml
 java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 52041 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-752703367\testng-customsuite.xml
+!SESSION 2014-06-14 14:14:46.982 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_55
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.testng.eclipse 1 0 2014-06-14 15:05:38.424
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53844 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-2082314388\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 53844 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-2082314388\testng-customsuite.xml
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2014-06-14 22:03:46.257
+!MESSAGE 
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.copy
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:229)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:210)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:131)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:171)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:276)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:494)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:545)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:366)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:313)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:82)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1521)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+	at org.eclipse.swt.ole.win32.OleFrame.getMsgProc(OleFrame.java:279)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3129)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1029)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:923)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.copy
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:84)
+	at sun.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 48 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2014-06-14 22:03:46.297
+!MESSAGE 
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.copy
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:229)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:210)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:131)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:171)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:276)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:494)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:545)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:366)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:313)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:82)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.browser.WebBrowser.sendKeyEvent(WebBrowser.java:700)
+	at org.eclipse.swt.browser.IE.handleDOMEvent(IE.java:1689)
+	at org.eclipse.swt.browser.IE$5.handleEvent(IE.java:331)
+	at org.eclipse.swt.ole.win32.OleEventTable.sendEvent(OleEventTable.java:55)
+	at org.eclipse.swt.ole.win32.OleEventSink.notifyListener(OleEventSink.java:145)
+	at org.eclipse.swt.ole.win32.OleEventSink.Invoke(OleEventSink.java:120)
+	at org.eclipse.swt.ole.win32.OleEventSink.access$1(OleEventSink.java:97)
+	at org.eclipse.swt.ole.win32.OleEventSink$1.method6(OleEventSink.java:71)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:119)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1029)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:923)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.copy
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:84)
+	at sun.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 49 more
+
+!ENTRY org.testng.eclipse 1 0 2014-06-14 23:19:02.002
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57613 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-623972387\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 57613 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-623972387\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-14 23:21:44.139
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57666 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--845521580\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 57666 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--845521580\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-14 23:51:33.948
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58060 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1898834840\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 58060 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1898834840\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-14 23:54:11.231
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58122 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1573910376\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 58122 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1573910376\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-14 23:55:35.125
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58238 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-876878820\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 58238 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-876878820\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 00:26:48.653
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58726 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1006000219\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 58726 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1006000219\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 00:30:42.825
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58872 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1574153395\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 58872 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1574153395\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 00:42:13.900
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59110 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-835705755\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 59110 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-835705755\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 00:52:33.893
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59369 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-420081708\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 59369 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-420081708\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 01:00:13.089
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59563 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1539546645\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 59563 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1539546645\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 01:02:11.989
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59607 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--305538869\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 59607 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--305538869\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 01:10:04.363
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59811 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-2034577273\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 59811 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-2034577273\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 01:12:14.988
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59959 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--811831195\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 59959 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--811831195\testng-customsuite.xml
+!SESSION 2014-06-15 10:32:57.195 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_55
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 10:34:43.306
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49444 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1763312035\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 49444 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1763312035\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 10:54:20.138
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49585 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-658404466\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 49585 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-658404466\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 11:41:26.146
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49710 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-416038374\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 49710 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-416038374\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 11:45:57.307
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49804 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1026402221\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 49804 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1026402221\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 11:51:14.118
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49847 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--759510723\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 49847 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--759510723\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 12:42:43.394
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49992 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1939117466\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 49992 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1939117466\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 12:47:55.902
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50104 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1756935355\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 50104 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1756935355\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 12:54:38.118
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50218 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--502642429\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 50218 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--502642429\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 13:05:18.678
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50332 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--345177793\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 50332 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--345177793\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 13:17:22.744
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50534 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--689329966\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 50534 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--689329966\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 14:00:11.181
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51061 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1869444619\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 51061 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1869444619\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 14:02:57.559
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51101 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-662044445\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 51101 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-662044445\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 14:04:40.404
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51128 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1691201780\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 51128 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1691201780\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 14:15:03.999
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51177 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--227854046\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 51177 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--227854046\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 14:16:19.671
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51431 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--90960059\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 51431 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--90960059\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 14:17:06.714
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51630 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1688960159\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 51630 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1688960159\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 14:18:39.351
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51689 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1979728397\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 51689 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1979728397\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 17:19:38.446
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52353 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--957432451\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 52353 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--957432451\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 17:33:48.058
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52406 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--581493904\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 52406 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--581493904\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 17:34:33.633
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52427 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--771716392\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 52427 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--771716392\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 17:44:42.553
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52451 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1749047843\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 52451 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1749047843\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 17:52:12.516
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52490 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-2000503937\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 52490 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-2000503937\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 18:40:44.074
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52555 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-948164790\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 52555 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-948164790\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 18:49:39.192
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52608 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-801556845\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 52608 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-801556845\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 19:04:29.895
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52755 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-775270206\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 52755 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-775270206\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 19:57:05.741
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52982 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-935257874\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 52982 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-935257874\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 20:11:32.638
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53165 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1240203600\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 53165 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1240203600\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 20:12:35.068
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53354 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--2128730017\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 53354 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--2128730017\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 20:24:31.072
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53557 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--388451089\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 53557 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--388451089\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 21:35:37.030
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53658 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-129482750\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 53658 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-129482750\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 21:43:06.451
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53780 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-288460667\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 53780 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-288460667\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 21:46:29.372
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:ContactRemovalTests.java [in com.example.tests [in src [in addressbook-selenium-tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class ContactRemovalTests
+    void deleteSomeContacts()
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 21:46:29.399
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53882 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1150425243\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 53882 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1150425243\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 21:48:12.273
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53918 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1098763266\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 53918 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1098763266\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 22:56:29.447
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54037 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-598649238\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 54037 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-598649238\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 22:57:39.578
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54147 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1341507419\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 54147 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1341507419\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 23:13:53.167
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54260 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-416352115\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 54260 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-416352115\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 23:15:21.031
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54294 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1811172502\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 54294 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1811172502\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 23:17:13.466
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54327 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-639566129\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 54327 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-639566129\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 23:18:47.711
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreationTests.java [in com.example.tests [in src [in addressbook-selenium-tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.Assert.assertEquals
+  import org.testng.annotations.Test
+  class ContactCreationTests
+    void testEmptyAddressCreation()
+    void testNonEmptyAddressCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 23:18:47.736
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54351 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-2047532565\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 54351 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-2047532565\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 23:24:20.691
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54374 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--228603057\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 54374 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--228603057\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 23:41:50.129
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54414 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-195864159\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 54414 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-195864159\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 23:46:29.584
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54444 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1527093709\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 54444 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1527093709\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 23:50:33.877
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54480 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-558248361\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 54480 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-558248361\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-15 23:56:30.304
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54581 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1965600967\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 54581 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1965600967\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-16 18:08:31.534
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60867 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1933750805\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 60867 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1933750805\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-16 19:00:53.672
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60956 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1605067378\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 60956 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1605067378\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-16 19:14:39.538
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61071 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1570272396\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 61071 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1570272396\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-16 21:43:22.384
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61198 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1901503752\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 61198 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1901503752\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-16 22:44:23.532
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61456 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1896092673\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 61456 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1896092673\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-16 22:47:26.224
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61559 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-328753685\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 61559 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-328753685\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-16 22:49:52.465
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61589 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--910090156\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 61589 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--910090156\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-16 22:51:21.174
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61698 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1537341422\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 61698 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1537341422\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-16 23:45:37.207
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61831 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--30602385\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 61831 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--30602385\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-16 23:46:22.095
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61930 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-909800548\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 61930 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-909800548\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-17 00:01:29.375
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62119 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1814981726\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 62119 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1814981726\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-17 00:03:39.326
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62303 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1037989806\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 62303 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse-1037989806\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-17 00:13:50.864
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62480 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--885013447\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 62480 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--885013447\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-06-17 00:20:00.121
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar C:\GitHub\P4T-18\addressbook-selenium-tests\bin C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62535 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1711365429\testng-customsuite.xml
+java -ea -classpath /C:/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:C:\GitHub\P4T-18\addressbook-selenium-tests\bin:C:\1\SWT-PDT18\SWT-i\4_Selenium Server Standalone Framework\selenium-server-standalone-2.41.0.jar org.testng.remote.RemoteTestNG -serport 62535 -d C:\GitHub\P4T-18\addressbook-selenium-tests\test-output C:\Users\Alex\AppData\Local\Temp\testng-eclipse--1711365429\testng-customsuite.xml

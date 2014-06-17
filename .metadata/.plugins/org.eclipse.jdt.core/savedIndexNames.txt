@@ -10,8 +10,6 @@ INDEX VERSION 1.126+C:\GitHub\P4T-18\.metadata\.plugins\org.eclipse.jdt.core
 1115467115.index
 3974580528.index
 163172794.index
-2322309802.index
-336541449.index
 3065916431.index
 4155206848.index
 1697886153.index
